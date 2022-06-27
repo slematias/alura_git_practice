@@ -1,0 +1,31 @@
+Git	-> Sistema de control de versiones (SVC)
+
+Iniciar -> init -> todo el contenido
+		-> init --bare -> repositorio sin working tree, servirá solo como servidor, para que otros miembros del equipo sincronicen sus trabajos, disminuimos espacio de almacenamiento de esta forma.
+
+Agregar archivos ->	Todos -> 		git add . 	 
+					Especifico -> 	git add name.ext
+
+Grabar cambios ->	git commit -m "descripción"
+
+Ignorar archivos -> .gitignore	## no puede ignorarse a sí mismo, es necesario add
+
+
+GLOSARIO
+
+Head -> Estado actual de nuestro código, es decir, donde nos colocó Git
+
+Working tree -> Lugar donde los archivos realmente están siendo almacenados
+
+index -> Lugar donde Git almacena lo que será commiteado, es decir, la ubicación entre el working tree y el repositorio de Git en sí.
+
+
+
+
+SITIOS UTILES
+
+Revision de cambios -> https://devhints.io/git-log		
+
+Guardao -> https://git-scm.com/book/es/v2/Fundamentos-de-Git-Guardando-cambios-en-el-Repositorio
+
+Configuraciones -> https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
